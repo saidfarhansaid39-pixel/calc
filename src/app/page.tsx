@@ -4,7 +4,6 @@ import { SearchBarWrapper } from '@/components/SearchBarWrapper';
 import { calculatorRegistry } from '@calcuniverse/calculator-registry'
 
 export const dynamic = 'force-static'
-export const revalidate = 3600
 
 export default async function Home() {
   function getCalculatorCount(hubSlug: string): number {
